@@ -1,0 +1,15 @@
+Source: ctris
+Priority: extra
+Maintainer: Henne Vogelsang <hvogel@opensuse.org>
+Build-Depends: debhelper (>= 4.0.0), libncurses5-dev
+Standards-Version: 0.42
+Section: games
+
+Package: ctris
+Section: games
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends} 
+Description: Console based tetris clone
+  ctris is a colorized, small and flexible Tetris(TM)-clone
+  for the console. Go play!
+
